@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leetcode Matrix</title>
+    <title>Leetcode Stats</title>
     <link href="./src/output.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-950 text-white h-screen flex justify-center items-center ">
     <section class="section1 flex flex-col gap-8  bg-gray-700 p-[20px]  boreder rounded-md max-width-[600px] w-1/2 ">
         <!-- header -->
-        <h1 class="text-3xl font-bold">Leetcode Matrix</h1>
+        <h1 style=" color:rgb(138, 160, 163);" class="text-3xl font-bold text-center text-emerald-400">Leetcode Matrics
+        </h1>
         <!-- userpart -->
-        <div class="user-part flex flex-col gap-10 justify-start ">
+        <div class="user-part flex flex-col gap-8 justify-start ">
             <p>Enter your Leetcode Username :</p>
             <div class="username-input flex justify-start gap-10 ">
                 <input type="text" placeholder="Enter your username here" id="username"
@@ -21,32 +22,40 @@
                 <button id="search" class="p-2 rounded-md border-none bg-slate-900 ">Search</button>
             </div>
         </div>
+        <div class=" para hidden"></div>
         <div class="stats-section hidden">
             <div class="progress flex gap-4 justify-evenly items-center flex-wrap">
                 <!-- easy -->
                 <div class="progress-item">
                     <div class="easy-progress rounded-full border-4 w-[120px] h-[120px]   relative flex flex-col justify-center items-center text-[20px] font-bold"
                         style="background: conic-gradient(#136938 var(--progress-degree, 0%), #0a2914 0%); border-color:#136938 ;">
-                        <span class="easy-level relative z-2">0/0</span>Easy</div>
+                        <span class="easy-level relative z-2">0/0</span>Easy
+                    </div>
                 </div>
                 <!-- medium -->
                 <div class="progress-item ">
                     <div class="medium-progress rounded-full border-4 w-[120px] h-[120px] relative flex flex-col justify-center items-center text-[20px] font-bold"
                         style="background: conic-gradient(#136938 var(--progress-degree, 0%), #0a2914 0%); border-color:#136938 ;">
-                        <span class="medium-level">0/0</span>Medium</div>
+                        <span class="medium-level">0/0</span>Medium
+                    </div>
                 </div>
                 <!-- hard -->
                 <div class=" progress-item">
                     <div class="hard-progress rounded-full border-4 w-[120px] h-[120px] relative flex flex-col justify-center items-center text-[20px] font-bold"
                         style="background: conic-gradient(#136938 var(--progress-degree, 0%), #0a2914 0%); border-color:#136938 ;">
-                        <span class="hard-level">0/0</span>Hard</div>
+                        <span class="hard-level">0/0</span>Hard
+                    </div>
                 </div>
             </div>
-            <div class=" card-Stats flex justify-center flex-wrap items-center p-4 mt-10 gap-3"></div>
-        
-        <script src="script.js"></script>
+            <div class=" card-stats flex justify-center flex-wrap items-center p-4 mt-10 gap-3"></div>
+            <div class="flex justify-center mt-4 rounded-b-md ">
 
+                <button class=" check p-2 rounded-md border-none bg-slate-900 ">Check Again</button>
+            </div>
+        </div>
     </section>
+
+    <script src="script.js"></script>
 
 </body>
 
