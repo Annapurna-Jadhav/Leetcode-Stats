@@ -56,10 +56,6 @@ This project is a web application that fetches and displays Leetcode statistics 
 - **Progress Visualization**: Using CSS properties to create visually appealing progress indicators.
 - **Error Handling**: Managing API errors and invalid user inputs.
 
-## Example
-
-![Screenshot](screenshot.png)
-
 ## Acknowledgements
 
 - **[Leetcode Stats API](https://leetcode-stats-api.herokuapp.com/)**: For providing the data.
